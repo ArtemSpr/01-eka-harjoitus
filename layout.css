@@ -1,0 +1,59 @@
+html {
+    font-size: 62.5% /* *62.5% x 16pt = 10pt */;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1rem;
+    border: lightgrey 0.2rem solid;
+    padding: 1rem;
+    max-width: 82.1rem;
+}
+
+h1,
+p,
+figure {
+    margin-block-end: 1rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+#special{
+    background-color: rgb(48, 173, 48);
+    padding: 5rem;
+    color: white;
+    font-size: 2rem;
+}
+
+.muotoiltu{
+    background-color: rgba(233, 47, 47, 0.241);
+    padding: 1rem;
+}
+
+/** Tehdään kuvasta responsiivinen*/
+
+figure {
+    display: block;/** 1 sääntö responsiiviselle kuvalla*/
+    border-radius: 1rem;
+    max-width: 821px;
+}
+
+figure img {
+    max-width: 100%;/** 2 sääntö responsiiviselle kuvalla*/
+    border-radius: 1rem 1rem 0 0;
+}
+
+figure figcaption {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #858ef4;
+    border-radius: 0 0 1rem 1rem;
+}
+
